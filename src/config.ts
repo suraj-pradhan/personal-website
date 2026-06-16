@@ -5,7 +5,7 @@ export const siteConfig: SiteConfig = {
   description: "Notes from someone still figuring it out — shipped anyway.",
   siteUrl: "https://serene-ink.pages.dev",
   author: {
-    name: "Jiseeeh",
+    name: "Suraj Pradhan",
     bio: "Somewhere between a junior and someone who knows what they're doing..",
   },
   nav: [
@@ -14,9 +14,9 @@ export const siteConfig: SiteConfig = {
     { label: "About", href: "/about" },
   ],
   socials: {
-    github: "https://github.com/jiseeeh",
-    twitter: "https://x.com/username",
-    linkedin: "https://ph.linkedin.com/in/name",
+    github: "https://github.com/suraj-pradhan",
+    twitter: "https://x.com/surajpradhan",
+    linkedin: "https://ph.linkedin.com/in/suraj-pradhan",
   },
   postsPerPage: 5,
   analytics: {
@@ -26,7 +26,7 @@ export const siteConfig: SiteConfig = {
     },
   },
   rss: {
-    title: "Jiseeeh's Blog",
+    title: "Suraj Pradhan's Blog",
     description: "Notes from someone still figuring it out — shipped anyway.",
   },
 };
