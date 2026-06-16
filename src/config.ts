@@ -3,15 +3,15 @@ import type { SiteConfig } from "./types";
 export const siteConfig: SiteConfig = {
   title: "Suraj Pradhan",
   description: "Notes from someone still figuring it out — shipped anyway.",
-  siteUrl: "https://serene-ink.pages.dev",
+  siteUrl: "https://surajpradhan.pages.dev",
   author: {
     name: "Suraj Pradhan",
     bio: "Somewhere between a junior and someone who knows what they're doing..",
   },
   nav: [
-    { label: "Writing", href: "/" },
-    { label: "Tags", href: "/tags" },
     { label: "About", href: "/about" },
+    { label: "Writing", href: "/" },
+    // { label: "Tags", href: "/tags" },
   ],
   socials: {
     github: "https://github.com/suraj-pradhan",
