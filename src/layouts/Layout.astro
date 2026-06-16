@@ -126,7 +126,8 @@ const isOnCurrentPath = (path: string) => {
             id="main-nav"
             class="px-5 py-5 flex justify-between sticky top-0 z-50"
         >
-            <Braces />
+            <!-- <Braces /> -->
+             <span class="font-bold text-2xl">{siteConfig.author.name}</span>
 
             <ul class="flex items-center gap-4">
                 {
@@ -162,7 +163,9 @@ const isOnCurrentPath = (path: string) => {
                         <Sun class="hidden dark:block" size={16} />
                     </button>
                 </li>
-                <li>
+                                <!-- Disable search search and RSS Feed and Mouse Pointer -->
+
+                <!-- <li>
                     <button
                         id="cursor-toggle"
                         type="button"
@@ -171,8 +174,8 @@ const isOnCurrentPath = (path: string) => {
                     >
                         <MousePointer2 size={16} />
                     </button>
-                </li>
-                <li>
+                </li> -->
+                <!-- <li>
                     <a
                         href="/feed.xml"
                         aria-label="RSS feed"
@@ -190,7 +193,7 @@ const isOnCurrentPath = (path: string) => {
                     >
                         <Search size={16} />
                     </button>
-                </li>
+                </li> -->
             </ul>
         </nav>
         <div class="flex-1">
