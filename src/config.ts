@@ -9,8 +9,8 @@ export const siteConfig: SiteConfig = {
     bio: "Somewhere between a junior and someone who knows what they're doing..",
   },
   nav: [
-    { label: "About", href: "/about" },
     { label: "Writing", href: "/" },
+    { label: "About", href: "/about" },
     // { label: "Tags", href: "/tags" },
   ],
   socials: {
